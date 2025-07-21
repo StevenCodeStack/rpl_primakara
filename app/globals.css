@@ -9,5 +9,5 @@
 }
 
 .globalLayout {
-  @apply mx-auto max-w-330 px-5 py-10 md:px-10 lg:py-25;
+  @apply mx-auto max-w-330 px-5 py-15 md:px-10 lg:py-25;
 }
