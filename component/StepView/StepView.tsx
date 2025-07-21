@@ -18,7 +18,7 @@ const steps = [
 
 const StepView = () => {
   return (
-    <div className="globalLayout flex flex-col justify-center !pt-30 text-black md:flex-row md:gap-15">
+    <div className="globalLayout flex flex-col justify-center text-black md:flex-row md:gap-15">
       <div className="flex h-[500px] w-full flex-col md:w-1/2">
         {/* Set a fixed height or parent context */}
         <div className="relative h-[60%] overflow-hidden">
@@ -31,7 +31,7 @@ const StepView = () => {
         <div className="relative flex-1">
           <Image
             src={image2}
-            className="absolute -top-10 right-0 aspect-square w-1/2 rounded-4xl border-10 border-white object-cover"
+            className="absolute -top-10 right-0 aspect-square max-h-70 w-1/2 rounded-4xl border-10 border-white object-cover"
             alt=""
           />
         </div>

@@ -11,7 +11,7 @@ const HomeView = () => {
       <div className="absolute inset-0 z-0 bg-[#002168] opacity-60" />
 
       <div className="relative z-10">
-        <div className="globalLayout">
+        <div className="globalLayout !pt-10">
           <div className="relative">
             <Image
               src={PrimakaraLogo}

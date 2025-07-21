@@ -57,7 +57,7 @@ const faqs = [
 const QuestionView = () => {
   const [indexOpen, setIndexOpen] = useState<number | null>(null);
   return (
-    <div className="globalLayout !pt-30 text-center">
+    <div className="globalLayout text-center">
       <Subtitle>FAQ</Subtitle>
       <Title>Frequently Asked Question</Title>
 
