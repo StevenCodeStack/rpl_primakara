@@ -8,7 +8,7 @@ const Subtitle = ({
   classname?: string;
 }) => {
   return (
-    <h1 className={`w-full text-center text-lg text-black ${classname}`}>
+    <h1 className={`w-full text-lg text-black ${classname}`}>
       <span className="inline-flex items-center justify-center gap-1">
         <svg
           stroke="currentColor"
