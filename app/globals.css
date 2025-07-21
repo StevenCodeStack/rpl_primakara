@@ -3,6 +3,9 @@
 @theme inline {
   --font-manrope: var(--font-manrope);
   --font-karla: var(--font-karla);
+
+  --color-white-bg: #e9f8f9;
+  --color-black: #0f172a;
 }
 
 .globalLayout {
