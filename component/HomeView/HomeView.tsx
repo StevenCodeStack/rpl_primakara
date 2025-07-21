@@ -6,7 +6,7 @@ import Button from "../UI/Button";
 
 const HomeView = () => {
   return (
-    <div className="relative h-[75dvh] text-white md:h-[100dvh]">
+    <div className="relative min-h-[75dvh] text-white md:h-[100dvh]">
       <Image src={PrimakaraBg} fill className="object-cover" alt="" />
       <div className="absolute inset-0 z-0 bg-[#002168] opacity-60" />
 
