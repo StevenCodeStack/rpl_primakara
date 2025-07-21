@@ -5,6 +5,7 @@ import image1 from "@/public/images/image-1.png";
 import image2 from "@/public/images/image-2.png";
 import image3 from "@/public/images/image-3.png";
 import Image from "next/image";
+import ProgramView from "../ProgramView/ProgramView";
 
 const benefits = [
   {
@@ -47,6 +48,8 @@ const BenefitView = () => {
             </div>
           ))}
         </div>
+
+        <ProgramView />
       </div>
     </div>
   );
