@@ -18,10 +18,10 @@ const ProgramView = () => {
       <Subtitle>OUR PRODI</Subtitle>
       <Title>Program Studi</Title>
 
-      <div className="mt-14 grid grid-cols-1 gap-6 lg:grid-cols-3">
+      <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {programs.map((e) => (
-          <div key={e.id} className="h-90 rounded-2xl bg-white p-6">
-            <div className="max-h=[80%] relative aspect-[4/3]">
+          <div key={e.id} className="h-90 rounded-2xl bg-white p-4 md:h-80">
+            <div className="relative aspect-[4/3] max-h-[85%] w-full">
               <Image
                 src={e.image}
                 alt=""

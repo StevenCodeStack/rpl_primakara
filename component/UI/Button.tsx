@@ -8,7 +8,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const Button: FC<ButtonProps> = ({ className, children, ...props }) => {
   return (
     <button
-      className={`w-fit rounded-full px-10 py-3 font-semibold text-nowrap ${className}`}
+      className={`w-fit cursor-pointer rounded-full px-10 py-3 font-semibold text-nowrap ${className}`}
       {...props}
     >
       {children}

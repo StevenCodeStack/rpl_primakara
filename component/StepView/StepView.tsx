@@ -67,7 +67,9 @@ const StepView = () => {
           ))}
         </div>
 
-        <Button className="mt-20 border-2 border-black">Daftar Sekarang</Button>
+        <Button className="mt-20 border-2 border-black transition-all hover:bg-black hover:text-white">
+          Daftar Sekarang
+        </Button>
       </div>
     </div>
   );

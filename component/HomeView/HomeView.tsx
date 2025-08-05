@@ -31,7 +31,7 @@ const HomeView = () => {
             sehingga mempercepat proses untuk memperoleh gelar Sarjana hingga
             1.5 Tahun.
           </p>
-          <Button className="mt-20 border-2 border-white">
+          <Button className="mt-20 border-2 border-white transition-all hover:bg-white hover:text-black">
             Daftar Sekarang
           </Button>
         </div>

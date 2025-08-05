@@ -50,7 +50,9 @@ const Footer = () => {
             <p className="">
               Jalan Tukad Badung No 135, Denpasar, Bali - 80226
             </p>
-            <Button className="my-1 bg-white text-black">Lihat Maps</Button>
+            <Button className="my-1 bg-white text-black transition-all hover:bg-slate-200">
+              Lihat Maps
+            </Button>
             <div className="flex items-center gap-3">
               <svg
                 stroke="currentColor"
@@ -133,9 +135,7 @@ const Footer = () => {
                 {e.title}
               </a>
             ))}
-            <h1 className="mt-5 text-slate-400">
-              Fakultas Teknologi Informasi dan Desain
-            </h1>
+            <h1 className="mt-5 text-slate-400">Fakultas Ekonomi dan Bisnis</h1>
             {bisnis.map((e: LinkType) => (
               <a key={e.id} href={e.link}>
                 {e.title}
@@ -172,7 +172,7 @@ const Footer = () => {
             className="h-fit w-50 brightness-0 invert"
           />
           <h1 className="">Copyright © 2023 Primakara University</h1>
-          <h1>Design by Nextap</h1>
+          <h1>Design by ___</h1>
         </div>
       </div>
     </div>
